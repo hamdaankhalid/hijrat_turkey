@@ -152,3 +152,7 @@ EMAIL_HOST_USER='khalid.hamdaan@gmail.com'
 EMAIL_HOST_PASSWORD='Stepbystep'
 EMAIL_USE_TLS=True
 
+try:
+    from .local_settings import *
+except ImportError:
+    pass
