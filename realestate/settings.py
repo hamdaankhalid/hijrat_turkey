@@ -145,12 +145,6 @@ MESSAGE_TAGS = {
     messages.INFO: 'danger',
 }
 
-# EMAIL CONFIG
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER='khalid.hamdaan@gmail.com'
-EMAIL_HOST_PASSWORD='Stepbystep'
-EMAIL_USE_TLS=True
 
 try:
     from .local_settings import *
