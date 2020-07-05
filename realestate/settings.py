@@ -84,13 +84,12 @@ WSGI_APPLICATION = 'realestate.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'realestatedb',
-        'USER': 'postgres',
-        'PASSWORD': '1234Augu' ,
+        'NAME': 'hijrat_prod',
+        'USER': 'dbadmin',
+        'PASSWORD': 'Welcome@123Hamdaan' ,
         'HOST': 'localhost'
 
     }
-}
 
 
 # Password validation
